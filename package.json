@@ -14,7 +14,9 @@
   ],
   "bin": "./lib/server.js",
   "scripts": {
-    "start": "./lib/server.js"
+    "start": "./lib/server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "contributors": [
@@ -37,6 +39,8 @@
     "gry": "^1.0.0",
     "lien": "^0.0.7",
     "ul": "^1.1.0",
-    "socket.io": "^1.1.0"
-  }
+    "socket.io": "^2.0.0",
+    "snyk": "^1.30.1"
+  },
+  "snyk": true
 }

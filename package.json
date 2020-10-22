@@ -33,7 +33,7 @@
   "homepage": "https://github.com/IonicaBizau/github-contributions",
   "devDependencies": {},
   "dependencies": {
-    "archiver": "^0.14.2",
+    "archiver": "^0.15.0",
     "gry": "^1.0.0",
     "lien": "^0.0.7",
     "ul": "^1.1.0",

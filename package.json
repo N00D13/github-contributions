@@ -34,7 +34,7 @@
   "devDependencies": {},
   "dependencies": {
     "archiver": "^0.14.2",
-    "gry": "^1.0.0",
+    "gry": "^6.0.0",
     "lien": "^0.0.7",
     "ul": "^1.1.0",
     "socket.io": "^1.1.0"
